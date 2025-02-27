@@ -29,7 +29,7 @@ const searchFood = () => {
 
     if (searchValue == '') {
         document.getElementById('error-message').innerHTML = `
-        <h1 class="text-danger">No Result Found</h1>
+        <h1 class="text-danger">No Result Found there </h1>
         `;
     } else {
         // Load Data

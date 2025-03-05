@@ -48,7 +48,7 @@ const searchFood = () => {
 
 const displayMeal = getMeals => {
 
-    const searchResult = document.getElementById('search-result');
+    const searchResult = document.getElementById('search-result found');
 
     // Clear PRevious
     searchResult.textContent = '';
